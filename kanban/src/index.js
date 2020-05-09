@@ -10,12 +10,12 @@ import "firebase/firestore";
 
 // Initialize Firebase
 var config = {
-  apiKey: "AIzaSyCYuwY7LH70tRUGtpQjZtCvRgP-AZ3zA-g",
-  authDomain: "kanban-shahnawaz.firebaseapp.com",
-  databaseURL: "https://kanban-shahnawaz.firebaseio.com",
-  projectId: "kanban-shahnawaz",
-  storageBucket: "kanban-shahnhwawaz.appspot.com",
-  messagingSenderId: "717271670911",
+  apiKey: "AIzaSyBOWRJqISVipbhODem_PggnJIHApZ4eMBo",
+  authDomain: "kanban-shahbaz.firebaseapp.com",
+  databaseURL: "https://kanban-shahbaz.firebaseio.com",
+  projectId: "kanban-shahbaz",
+  storageBucket: ".kanban-shahbaz.appspot.com",
+  messagingSenderId: "176958015532",
 };
 firebase.initializeApp(config);
 

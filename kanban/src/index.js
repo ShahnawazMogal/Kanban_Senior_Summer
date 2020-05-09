@@ -14,7 +14,7 @@ var config = {
   authDomain: "kanban-shahnawaz.firebaseapp.com",
   databaseURL: "https://kanban-shahnawaz.firebaseio.com",
   projectId: "kanban-shahnawaz",
-  storageBucket: "kanban-shahnhwat awaz.appspot.com",
+  storageBucket: "kanban-shahnhwawaz.appspot.com",
   messagingSenderId: "717271670911",
 };
 firebase.initializeApp(config);

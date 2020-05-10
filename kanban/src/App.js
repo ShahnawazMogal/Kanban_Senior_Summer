@@ -3,10 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import firebase from "firebase/app";
 import "firebase/firestore";
-import { Header } from "semantic-ui-react";
-import { Input } from "semantic-ui-react";
-import { Form } from "semantic-ui-react";
-
+import { Form } from "react-bootstrap";
 export class App extends Component {
   constructor() {
     super();
@@ -53,18 +50,14 @@ export class App extends Component {
     this.getTasks();
     return (
       <div>
-        <Header as="h2" textAlign="center">
-          <Header.Content> {this.state.taskname}</Header.Content>
-        </Header>
-        <Header as="h4">{"Backlog: " + this.state.backlog_items + "\n"}</Header>
+        <h1> {this.state.taskname}</h1>
+        <h4>{"Backlog: " + this.state.backlog_items + "\n"}</h4>
         <Form onSubmit={this.addToBacklog}>
-          <Form.Field>
-            <label>Enter new Backlog Item: </label>
-            <input
-              onChange={this.updateBacklogInput}
-              placeholder="Merge Branches"
-            />
-          </Form.Field>
+          <Form.Label>Enter new Backlog Item: </Form.Label>
+          <Form.Control
+            onChange={this.updateBacklogInput}
+            placeholder="Merge Branches"
+          />
         </Form>
       </div>
     );

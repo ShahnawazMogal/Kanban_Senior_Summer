@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 // Import Firebase as well as any extensions. In this case we're just adding on Firestore (our database)
 import firebase from "firebase/app";

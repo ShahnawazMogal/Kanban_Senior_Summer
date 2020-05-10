@@ -23,7 +23,7 @@ firebase.initializeApp(config);
 // This prevents a warning message for changes to firestore timestamp syntax in the console
 // Firestore is still in Beta - in the future this won't be necessary
 const firestore = firebase.firestore();
-const settings = { /* your settings... */ timestampsInSnapshots: true };
+const settings = {};
 firestore.settings(settings);
 
 ReactDOM.render(
